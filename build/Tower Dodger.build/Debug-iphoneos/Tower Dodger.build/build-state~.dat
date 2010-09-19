@@ -1,0 +1,642 @@
+TTower Dodger
+v7
+r0
+t306448014.142726
+cCheck dependencies
+cCpResource "build/Debug-iphoneos/Tower Dodger.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Info.plist" Tower_Dodger-Info.plist
+cCompileXIB "/Users/davvilla/Documents/Workspace/Tower Dodger/MainWindow.xib"
+cCompileXIB "/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib"
+cCopyPNGFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/drop.png" drop.png
+cCopyPNGFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/player.png" player.png
+cCopyPNGFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/box.png" box.png
+cProcessPCH /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch.gch Tower_Dodger_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch.gch Tower_Dodger_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/main.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerAppDelegate.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerViewController.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Drop.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Person.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/TurretSpace.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/main.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerAppDelegate.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerViewController.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Drop.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower Dodger" normal armv6
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Person.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/TurretSpace.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower Dodger" normal armv7
+cCreateUniversalBinary "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app.dSYM" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger"
+cProcessProductPackaging "/Users/davvilla/Library/MobileDevice/Provisioning Profiles/A8BCD1CB-6BB6-4809-86BC-ADFC5FB97F70.mobileprovision" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/embedded.mobileprovision"
+cTouch "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger.xcent"
+cCodeSign "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C3671890000000000000110
+t1278636425
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C2A7DA700000000000001A7
+t1277853095
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C2A7DA700000000000001E5
+t1277853095
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.h
+c000000004C93059000000000000001C8
+t1284703632
+s456
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m
+c000000004C9305D6000000000000056A
+t1284703702
+s1386
+i"Drop.h"
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.h
+c000000004C92FA750000000000000162
+t1284700789
+s354
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m
+c000000004C92FD3C0000000000000368
+t1284701500
+s872
+i"Person.h"
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.h
+c000000004C92F8720000000000000200
+t1284700274
+s512
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m
+c000000004C92F8AA0000000000000B78
+t1284700330
+s2936
+i"Tower_DodgerAppDelegate.h"
+i"Tower_DodgerViewController.h"
+i"Drop.h"
+i"Person.h"
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.h
+c000000004C92F9C60000000000000259
+t1284700614
+s601
+i<UIKit/UIKit.h>
+i"Person.h"
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m
+c000000004C93C6D50000000000000D08
+t1284753109
+s3336
+i"Tower_DodgerViewController.h"
+i"Drop.h"
+i"Person.h"
+i"TurretSpace.h"
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.h
+c000000004C93C76B00000000000000F4
+t1284753259
+s244
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m
+c000000004C93C7BA0000000000000355
+t1284753338
+s853
+i"TurretSpace.h"
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Drop.h
+c000000004C93059000000000000001C8
+t1284703632
+s456
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/MainWindow.xib
+c000000004C918BEF0000000000004E65
+t1284606959
+s20069
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib
+c000000004C918BEF0000000000001A59
+t1284606959
+s6745
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_Dodger_Prefix.pch
+c000000004C918BEF00000000000000C1
+t1284606959
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/box.png
+c000000004C93C5D1000000000000C2C5
+t1284752849
+s49861
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app
+t1284755214
+s476
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app.dSYM
+t1284755213
+s102
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Info.plist
+t1284755211
+s746
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/MainWindow.nib
+t1284755211
+s1133
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/PkgInfo
+t1284755211
+s8
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/ResourceRules.plist
+t1284755211
+s485
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger
+t1284755213
+s73660
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower_DodgerViewController.nib
+t1284755211
+s795
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/box.png
+t1284755211
+s13215
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/drop.png
+t1284755211
+s15204
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/embedded.mobileprovision
+t1284755213
+s10233
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/player.png
+t1284755211
+s14370
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Drop.o
+t1284755212
+s41712
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Person.o
+t1284755212
+s38752
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower Dodger
+t1284755213
+s33448
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower Dodger.LinkFileList
+c000000004C93CF0B0000000000000362
+t1284755211
+s866
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerAppDelegate.o
+t1284755212
+s47788
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerViewController.o
+t1284755212
+s49336
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/TurretSpace.o
+t1284755212
+s36784
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/main.o
+t1284755212
+s6460
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Drop.o
+t1284755212
+s40576
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Person.o
+t1284755213
+s38336
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower Dodger
+t1284755213
+s32700
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower Dodger.LinkFileList
+c000000004C93CF0B0000000000000362
+t1284755211
+s866
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerAppDelegate.o
+t1284755212
+s47700
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerViewController.o
+t1284755212
+s48388
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/TurretSpace.o
+t1284755213
+s36676
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/main.o
+t1284755212
+s6444
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger.xcent
+t1284755213
+s430
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/drop.png
+c000000004C9193DA000000000000CA3E
+t1284608986
+s51774
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/main.m
+c000000004C918BEF000000000000016F
+t1284606959
+s367
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/Tower Dodger/player.png
+c000000004C92F5D1000000000000C59A
+t1284699601
+s50586
+
+N/Users/davvilla/Library/MobileDevice/Provisioning Profiles/A8BCD1CB-6BB6-4809-86BC-ADFC5FB97F70.mobileprovision
+c000000004C6353E900000000000027F9
+t1281577961
+s10233
+
+N/var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch.gch
+t1284755212
+s9831984
+
+N/var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch.gch
+t1284755212
+s10290736
+
+NTower_Dodger-Info.plist
+c000000004C918BEF000000000000038D
+t1284606959
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies306448011#306448011#0(0"0(0#1#0"8610901408#0"0#
+
+CCodeSign "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app"
+s306448013.692021
+e306448014.142681
+r1
+xCodeSign
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app
+lSLF07#2@48"CodeSign "build/Debug-iphoneos/Tower Dodger.app"306448013#306448014#0(0"0(0#0#86"/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app8613164128#725"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: David Villarreal (6R9P358S6H)" "--resource-rules=/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/ResourceRules.plist" --entitlements "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger.xcent" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Drop.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s306448012.670049
+e306448012.833807
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Drop.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m306448012#306448012#0(0"0(0#0#66"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m8612580160#1967"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv6" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Drop.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Person.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s306448012.818139
+e306448012.900161
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Person.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m306448012#306448012#0(0"0(0#0#65"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m8611406272#1968"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv6" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Person.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerAppDelegate.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s306448012.667145
+e306448012.830849
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerAppDelegate.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m306448012#306448012#0(0"0(0#0#82"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m8615513312#2002"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv6" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerAppDelegate.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerViewController.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s306448012.668402
+e306448012.847111
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerViewController.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m306448012#306448012#0(0"0(0#0#85"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m8613559936#2008"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv6" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower_DodgerViewController.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/TurretSpace.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s306448012.831009
+e306448012.924681
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/TurretSpace.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m306448012#306448012#0(0"0(0#0#70"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m8610842976#1978"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv6" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/TurretSpace.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/main.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s306448012.665216
+e306448012.817999
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/main.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/main.m306448012#306448012#0(0"0(0#0#55"/Users/davvilla/Documents/Workspace/Tower Dodger/main.m8604991200#1956"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv6" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/main.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/main.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Drop.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306448012.900313
+e306448012.988463
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Drop.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m306448012#306448012#0(0"0(0#0#66"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m8602905760#1967"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv7" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Drop.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Person.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306448012.965827
+e306448013.069791
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Person.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m306448012#306448013#0(0"0(0#0#65"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m8613164640#1968"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv7" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Person.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerAppDelegate.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306448012.847235
+e306448012.965681
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerAppDelegate.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m306448012#306448012#0(0"0(0#0#82"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m8613657888#2002"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv7" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerAppDelegate.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerViewController.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306448012.894152
+e306448013.004562
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerViewController.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m306448012#306448013#0(0"0(0#0#85"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m8613676576#2008"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv7" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower_DodgerViewController.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/TurretSpace.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306448012.988620
+e306448013.070198
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/TurretSpace.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m306448012#306448013#0(0"0(0#0#70"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m8613949120#1978"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv7" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/TurretSpace.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/main.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306448012.833941
+e306448012.893996
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/main.o
+x/Users/davvilla/Documents/Workspace/Tower Dodger/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/main.m306448012#306448012#0(0"0(0#0#55"/Users/davvilla/Documents/Workspace/Tower Dodger/main.m8604515136#1956"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv7" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/main.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/davvilla/Documents/Workspace/Tower Dodger/MainWindow.xib"
+s306448011.102404
+e306448011.547549
+r1
+xCompileXIB
+x/Users/davvilla/Documents/Workspace/Tower Dodger/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib306448011#306448011#0(0"0(0#0#63"/Users/davvilla/Documents/Workspace/Tower Dodger/MainWindow.xib8615764704#583"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/MainWindow.nib" "/Users/davvilla/Documents/Workspace/Tower Dodger/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB "/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib"
+s306448011.103083
+e306448011.546004
+r1
+xCompileXIB
+x/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib
+lSLF07#2@41"CompileXIB Tower_DodgerViewController.xib306448011#306448011#0(0"0(0#0#79"/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib8613873088#615"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower_DodgerViewController.nib" "/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/box.png" box.png
+s306448011.340495
+e306448011.409539
+r1
+xCopyPNGFile
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/box.png
+xbox.png
+lSLF07#2@67"CopyPNGFile "build/Debug-iphoneos/Tower Dodger.app/box.png" box.png306448011#306448011#0(0"0(0#0#56"/Users/davvilla/Documents/Workspace/Tower Dodger/box.png8611279968#595"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/davvilla/Documents/Workspace/Tower Dodger/box.png" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/box.png"0#
+
+CCopyPNGFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/drop.png" drop.png
+s306448011.103672
+e306448011.369771
+r1
+xCopyPNGFile
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/drop.png
+xdrop.png
+lSLF07#2@69"CopyPNGFile "build/Debug-iphoneos/Tower Dodger.app/drop.png" drop.png306448011#306448011#0(0"0(0#0#57"/Users/davvilla/Documents/Workspace/Tower Dodger/drop.png8613515424#597"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/davvilla/Documents/Workspace/Tower Dodger/drop.png" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/drop.png"0#
+
+CCopyPNGFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/player.png" player.png
+s306448011.104447
+e306448011.340378
+r1
+xCopyPNGFile
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/player.png
+xplayer.png
+lSLF07#2@73"CopyPNGFile "build/Debug-iphoneos/Tower Dodger.app/player.png" player.png306448011#306448011#0(0"0(0#0#59"/Users/davvilla/Documents/Workspace/Tower Dodger/player.png8612756128#601"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/davvilla/Documents/Workspace/Tower Dodger/player.png" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/player.png"0#
+
+CCpResource "build/Debug-iphoneos/Tower Dodger.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s306448011.086177
+e306448011.102328
+r1
+xCpResource
+xbuild/Debug-iphoneos/Tower Dodger.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist306448011#306448011#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8612742848#509"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app"0#
+
+CCreateUniversalBinary "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger" normal "armv6 armv7"
+s306448013.595843
+e306448013.632881
+r1
+xCreateUniversalBinary
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger
+xnormal
+xarmv6 armv7
+lSLF07#2@95"CreateUniversalBinary "build/Debug-iphoneos/Tower Dodger.app/Tower Dodger" normal "armv6 armv7"306448013#306448013#0(0"0(0#0#60"/Users/davvilla/Documents/Workspace/Tower Dodger/armv6 armv78611624384#606"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower Dodger" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower Dodger" -output "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger"0#
+
+CGenerateDSYMFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app.dSYM" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger"
+s306448013.632994
+e306448013.670389
+r1
+xGenerateDSYMFile
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app.dSYM
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger
+lSLF07#2@114"GenerateDSYMFile "build/Debug-iphoneos/Tower Dodger.app.dSYM" "build/Debug-iphoneos/Tower Dodger.app/Tower Dodger"306448013#306448013#0(0"0(0#0#99"/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger8603114080#413"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Tower Dodger" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app.dSYM"0#
+
+CLd "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower Dodger" normal armv6
+s306448012.924796
+e306448013.592071
+r1
+xLd
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower Dodger
+xnormal
+xarmv6
+lSLF07#2@146"Link /Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower Dodger306448012#306448013#0(0"0(0#0#0"8604815424#949"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" -filelist "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower Dodger.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv6/Tower Dodger"0#
+
+CLd "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower Dodger" normal armv7
+s306448013.070305
+e306448013.595771
+r1
+xLd
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower Dodger
+xnormal
+xarmv7
+lSLF07#2@146"Link /Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower Dodger306448013#306448013#0(0"0(0#0#0"8613276864#949"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" -filelist "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower Dodger.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Objects-normal/armv7/Tower Dodger"0#
+
+CProcessInfoPlistFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Info.plist" Tower_Dodger-Info.plist
+s306448011.087028
+e306448011.102038
+r1
+xProcessInfoPlistFile
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Info.plist
+xTower_Dodger-Info.plist
+lSLF07#2@31"Process Tower_Dodger-Info.plist306448011#306448011#0(0"0(0#0#72"/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_Dodger-Info.plist8610740832#630"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Tower_Dodger-Info.plist -genpkginfo "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/ResourceRules.plist" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/Info.plist"0#
+
+CProcessPCH /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch.gch Tower_Dodger_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s306448011.547674
+e306448012.664870
+r1
+xProcessPCH
+x/var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch.gch
+xTower_Dodger_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Tower_Dodger_Prefix.pch306448011#306448012#0(0"0(0#0#72"/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_Dodger_Prefix.pch8604799904#1837"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv6" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_Dodger_Prefix.pch" -o /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-djtgoispewkxmwdiprwvshecviom/Tower_Dodger_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch.gch Tower_Dodger_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s306448011.548858
+e306448012.417036
+r1
+xProcessPCH
+x/var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch.gch
+xTower_Dodger_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Tower_Dodger_Prefix.pch306448011#306448012#0(0"0(0#0#72"/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_Dodger_Prefix.pch8603659808#1837"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources/armv7" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/DerivedSources" -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_Dodger_Prefix.pch" -o /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-egjisqiebwaczegapjisacdufqhc/Tower_Dodger_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/davvilla/Library/MobileDevice/Provisioning Profiles/A8BCD1CB-6BB6-4809-86BC-ADFC5FB97F70.mobileprovision" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/embedded.mobileprovision"
+s306448013.670487
+e306448013.671566
+r1
+xProcessProductPackaging
+x/Users/davvilla/Library/MobileDevice/Provisioning Profiles/A8BCD1CB-6BB6-4809-86BC-ADFC5FB97F70.mobileprovision
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/davvilla/Library/MobileDevice/Provisioning Profiles/A8BCD1CB-6BB6-4809-86BC-ADFC5FB97F70.mobileprovision" "build/Debug-iphoneos/Tower Dodger.app/embedded.mobileprovision"306448013#306448013#0(0"0(0#0#111"/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/embedded.mobileprovision8604518144#455"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/davvilla/Library/MobileDevice/Provisioning Profiles/A8BCD1CB-6BB6-4809-86BC-ADFC5FB97F70.mobileprovision" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger.xcent"
+s306448013.673971
+e306448013.691919
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger.xcent
+lSLF07#2@192"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger.xcent"306448013#306448013#0(0"0(0#0#126"/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger.xcent8613311264#471"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphoneos/Tower Dodger.build/Tower Dodger.xcent"0#
+
+CTouch "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app"
+s306448013.671614
+e306448013.673906
+r1
+xTouch
+x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app
+lSLF07#2@92"Touch /Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app306448013#306448013#0(0"0(0#0#0"8602685728#293"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphoneos/Tower Dodger.app"0#
+

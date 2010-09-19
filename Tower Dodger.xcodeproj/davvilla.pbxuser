@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Tower_DodgerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1341, 806}}";
+			sepNavSelRange = "{505, 0}";
+			sepNavVisRange = "{0, 512}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Tower_DodgerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1261}}";
+			sepNavSelRange = "{884, 0}";
+			sepNavVisRange = "{0, 2112}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Tower Dodger */ = {
+		activeExec = 0;
+		executables = (
+			89D27EF31241C36F0059F1B4 /* Tower Dodger */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* Tower_DodgerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 555}}";
+			sepNavSelRange = "{602, 0}";
+			sepNavVisRange = "{0, 731}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* Tower_DodgerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 2366}}";
+			sepNavSelRange = "{2706, 0}";
+			sepNavVisRange = "{2344, 427}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 89D27EF31241C36F0059F1B4 /* Tower Dodger */;
+		activeSDKPreference = iphoneos4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Tower Dodger */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Tower Dodger */,
+		);
+		codeSenseManager = 89D27F051241C3880059F1B4 /* Code sense */;
+		executables = (
+			89D27EF31241C36F0059F1B4 /* Tower Dodger */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1071,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 306606029;
+			PBXWorkspaceStateSaveDate = 306606029;
+		};
+		perUserProjectItems = {
+			8915B7EC12432F4700DF3B86 /* PBXBookmark */ = 8915B7EC12432F4700DF3B86 /* PBXBookmark */;
+			8915B8011243301900DF3B86 /* PBXTextBookmark */ = 8915B8011243301900DF3B86 /* PBXTextBookmark */;
+			8915B86412433AFA00DF3B86 /* PBXTextBookmark */ = 8915B86412433AFA00DF3B86 /* PBXTextBookmark */;
+			8915B8C212433FEA00DF3B86 /* PBXTextBookmark */ = 8915B8C212433FEA00DF3B86 /* PBXTextBookmark */;
+			8915B8C312433FEA00DF3B86 /* PBXTextBookmark */ = 8915B8C312433FEA00DF3B86 /* PBXTextBookmark */;
+			899759481243FD9700DB085D /* PBXTextBookmark */ = 899759481243FD9700DB085D /* PBXTextBookmark */;
+			89B9583A1246848F00115FC0 /* PBXTextBookmark */ = 89B9583A1246848F00115FC0 /* PBXTextBookmark */;
+			89B958401246848F00115FC0 /* PBXTextBookmark */ = 89B958401246848F00115FC0 /* PBXTextBookmark */;
+			89B9596D12469EB500115FC0 /* PBXTextBookmark */ = 89B9596D12469EB500115FC0 /* PBXTextBookmark */;
+			89B9596E12469EB500115FC0 /* PBXTextBookmark */ = 89B9596E12469EB500115FC0 /* PBXTextBookmark */;
+			89B9596F12469EB500115FC0 /* PBXTextBookmark */ = 89B9596F12469EB500115FC0 /* PBXTextBookmark */;
+			89B9597012469EB500115FC0 /* PBXTextBookmark */ = 89B9597012469EB500115FC0 /* PBXTextBookmark */;
+			89B9597112469EB500115FC0 /* PBXTextBookmark */ = 89B9597112469EB500115FC0 /* PBXTextBookmark */;
+			89B959C01246A26A00115FC0 /* PBXTextBookmark */ = 89B959C01246A26A00115FC0 /* PBXTextBookmark */;
+			89B95A191246A44000115FC0 /* PBXTextBookmark */ = 89B95A191246A44000115FC0 /* PBXTextBookmark */;
+			89B95A1A1246A44000115FC0 /* PBXTextBookmark */ = 89B95A1A1246A44000115FC0 /* PBXTextBookmark */;
+			89B95A2C1246A4E000115FC0 /* PBXTextBookmark */ = 89B95A2C1246A4E000115FC0 /* PBXTextBookmark */;
+			89B95A551246A96600115FC0 /* PBXTextBookmark */ = 89B95A551246A96600115FC0 /* PBXTextBookmark */;
+			89B95A561246A96600115FC0 /* PBXBookmark */ = 89B95A561246A96600115FC0 /* PBXBookmark */;
+			89B95A571246A96600115FC0 /* PBXBookmark */ = 89B95A571246A96600115FC0 /* PBXBookmark */;
+			89F0A5F612459E140097898B /* PBXTextBookmark */ = 89F0A5F612459E140097898B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 89D27F041241C3880059F1B4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8915B7B8124325A000DF3B86 /* Person.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1341, 806}}";
+			sepNavSelRange = "{331, 0}";
+			sepNavVisRange = "{0, 354}";
+		};
+	};
+	8915B7B9124325A000DF3B86 /* Person.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 719}}";
+			sepNavSelRange = "{439, 2}";
+			sepNavVisRange = "{0, 872}";
+		};
+	};
+	8915B7EC12432F4700DF3B86 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8915B7BD12432D6900DF3B86 /* player.png */;
+	};
+	8915B8011243301900DF3B86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Tower_DodgerAppDelegate.h */;
+		name = "Tower_DodgerAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 505;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	8915B86412433AFA00DF3B86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8915B7B8124325A000DF3B86 /* Person.h */;
+		name = "Person.h: 23";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	8915B8C212433FEA00DF3B86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89D27F071241C8710059F1B4 /* Drop.m */;
+		name = "Drop.m: 49";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 1225;
+		vrLoc = 155;
+	};
+	8915B8C312433FEA00DF3B86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89D27F061241C8710059F1B4 /* Drop.h */;
+		name = "Drop.h: 28";
+		rLen = 0;
+		rLoc = 450;
+		rType = 0;
+		vrLen = 456;
+		vrLoc = 0;
+	};
+	899759241243F90600DB085D /* TurretSpace.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 555}}";
+			sepNavSelRange = "{512, 0}";
+			sepNavVisRange = "{0, 686}";
+		};
+	};
+	899759251243F90600DB085D /* TurretSpace.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 1209}}";
+			sepNavSelRange = "{1432, 101}";
+			sepNavVisRange = "{1059, 1176}";
+		};
+	};
+	899759481243FD9700DB085D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8915B7B9124325A000DF3B86 /* Person.m */;
+		name = "Person.m: 25";
+		rLen = 2;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 872;
+		vrLoc = 0;
+	};
+	89B9583A1246848F00115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Tower_DodgerAppDelegate.m */;
+		name = "Tower_DodgerAppDelegate.m: 34";
+		rLen = 0;
+		rLoc = 884;
+		rType = 0;
+		vrLen = 2112;
+		vrLoc = 0;
+	};
+	89B958401246848F00115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EC33E41245347A0016FD09 /* Turret_UmbrellaDispenser.h */;
+		name = "Turret_UmbrellaDispenser.h: 10";
+		rLen = 0;
+		rLoc = 200;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	89B9596D12469EB500115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EC3201124412130016FD09 /* GameMenuItem.h */;
+		name = "GameMenuItem.h: 34";
+		rLen = 0;
+		rLoc = 649;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 0;
+	};
+	89B9596E12469EB500115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EC31ED12440DCC0016FD09 /* GameMenu.m */;
+		name = "GameMenu.m: 104";
+		rLen = 0;
+		rLoc = 3641;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 2880;
+	};
+	89B9596F12469EB500115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EC3202124412130016FD09 /* GameMenuItem.m */;
+		name = "GameMenuItem.m: 42";
+		rLen = 0;
+		rLoc = 941;
+		rType = 0;
+		vrLen = 915;
+		vrLoc = 87;
+	};
+	89B9597012469EB500115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EC341C12454D410016FD09 /* Turret.h */;
+		name = "Turret.h: 37";
+		rLen = 0;
+		rLoc = 683;
+		rType = 0;
+		vrLen = 801;
+		vrLoc = 0;
+	};
+	89B9597112469EB500115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EC341D12454D410016FD09 /* Turret.m */;
+		name = "Turret.m: 34";
+		rLen = 0;
+		rLoc = 903;
+		rType = 0;
+		vrLen = 980;
+		vrLoc = 215;
+	};
+	89B959C01246A26A00115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EC33E51245347A0016FD09 /* Turret_UmbrellaDispenser.m */;
+		name = "Turret_UmbrellaDispenser.m: 13";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	89B95A191246A44000115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 899759241243F90600DB085D /* TurretSpace.h */;
+		name = "TurretSpace.h: 29";
+		rLen = 0;
+		rLoc = 512;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 0;
+	};
+	89B95A1A1246A44000115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Tower_DodgerViewController.h */;
+		name = "Tower_DodgerViewController.h: 26";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 731;
+		vrLoc = 0;
+	};
+	89B95A2C1246A4E000115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Tower_DodgerViewController.m */;
+		name = "Tower_DodgerViewController.m: 98";
+		rLen = 0;
+		rLoc = 2706;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 2238;
+	};
+	89B95A551246A96600115FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 899759251243F90600DB085D /* TurretSpace.m */;
+		name = "TurretSpace.m: 56";
+		rLen = 101;
+		rLoc = 1432;
+		rType = 0;
+		vrLen = 1176;
+		vrLoc = 1059;
+	};
+	89B95A561246A96600115FC0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 89B95A431246A69F00115FC0 /* barrel.png */;
+	};
+	89B95A571246A96600115FC0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 89B95A431246A69F00115FC0 /* barrel.png */;
+	};
+	89D27EF31241C36F0059F1B4 /* Tower Dodger */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Tower Dodger";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$ss = 1;
+		};
+	};
+	89D27F041241C3880059F1B4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	89D27F051241C3880059F1B4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	89D27F061241C8710059F1B4 /* Drop.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1341, 806}}";
+			sepNavSelRange = "{450, 0}";
+			sepNavVisRange = "{0, 456}";
+		};
+	};
+	89D27F071241C8710059F1B4 /* Drop.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1341, 962}}";
+			sepNavSelRange = "{1011, 0}";
+			sepNavVisRange = "{155, 1225}";
+		};
+	};
+	89EC31EC12440DCC0016FD09 /* GameMenu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 572}}";
+			sepNavSelRange = "{644, 0}";
+			sepNavVisRange = "{0, 781}";
+		};
+	};
+	89EC31ED12440DCC0016FD09 /* GameMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 1482}}";
+			sepNavSelRange = "{3641, 0}";
+			sepNavVisRange = "{2880, 846}";
+		};
+	};
+	89EC3201124412130016FD09 /* GameMenuItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 555}}";
+			sepNavSelRange = "{649, 0}";
+			sepNavVisRange = "{0, 764}";
+		};
+	};
+	89EC3202124412130016FD09 /* GameMenuItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 676}}";
+			sepNavSelRange = "{941, 0}";
+			sepNavVisRange = "{87, 915}";
+		};
+	};
+	89EC33E41245347A0016FD09 /* Turret_UmbrellaDispenser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 806}}";
+			sepNavSelRange = "{200, 0}";
+			sepNavVisRange = "{0, 259}";
+		};
+	};
+	89EC33E51245347A0016FD09 /* Turret_UmbrellaDispenser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 555}}";
+			sepNavSelRange = "{238, 0}";
+			sepNavVisRange = "{0, 288}";
+		};
+	};
+	89EC341C12454D410016FD09 /* Turret.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 555}}";
+			sepNavSelRange = "{683, 0}";
+			sepNavVisRange = "{0, 801}";
+		};
+	};
+	89EC341D12454D410016FD09 /* Turret.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1289, 728}}";
+			sepNavSelRange = "{903, 0}";
+			sepNavVisRange = "{215, 980}";
+		};
+	};
+	89F0A5F612459E140097898B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 89EC31EC12440DCC0016FD09 /* GameMenu.h */;
+		name = "GameMenu.h: 35";
+		rLen = 0;
+		rLoc = 644;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 0;
+	};
+}

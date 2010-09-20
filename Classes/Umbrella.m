@@ -23,8 +23,8 @@
 
 - (id)initFromTurret:(TurretSpace *)turret {
 	
-	distanceTillOpen = 100.0;
-	speed = 100.0;
+	distanceTillOpen = 200.0;
+	speed = 150.0;
 	angle = turret.rotation;
 	open = FALSE;
 	
@@ -32,26 +32,42 @@
 	
 	self.transform = CGAffineTransformMakeRotation(angle);
 
-	self.image = [UIImage imageNamed:@"barrel.png"];
+	self.image = [UIImage imageNamed:@"umbrella_closed.png"];
 	
 	return self;
 }
 
 - (void)moveWithWind:(float)wind interval:(float)interval {
+	
+	if (distanceTillOpen <= 0.0 && !open) {
+		open = TRUE;
+		self.transform = CGAffineTransformMakeRotation(0);
+		self.image = [UIImage imageNamed:@"umbrella_open.png"];
+
+	}
+	
 	float xMovement;
 	float yMovement;
 	if (!open){
+		float dMovement = (interval * speed);
 		double someAngle = fabs(angle);
-		xMovement = (interval * speed) * sin(someAngle);
-		yMovement = (interval * speed) * cos(someAngle);
-		CGPoint movement = CGPointMake(xMovement, yMovement);
+		xMovement = dMovement * sin(someAngle);
+		yMovement = dMovement * cos(someAngle);
 		
+		CGPoint movement = CGPointMake(xMovement, yMovement);
 		CGPoint newCenter = CGPointMake(self.center.x+movement.x, self.center.y-movement.y);
 		self.center = newCenter;
+		
+		distanceTillOpen -= dMovement;
+		//NSLog(@"distance tll open: %f",distanceTillOpen);
 	}
 	else {
-		xMovement = (speed / wind) * (interval * 30);
-		yMovement = gravity * umbrellaSize * (interval * 8);		
+		xMovement = 0;
+		yMovement = 1;	
+		
+		CGPoint movement = CGPointMake(xMovement, yMovement);
+		CGPoint newCenter = CGPointMake(self.center.x+movement.x, self.center.y+movement.y);
+		self.center = newCenter;
 	}
 }
 - (void)dealloc {

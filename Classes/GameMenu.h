@@ -13,6 +13,7 @@
 @protocol GameMenuDelegate
 @required
 - (void)menuDismissed;
+- (void)turretPurchased:(id)turret Type:(NSString *)nameOfType;
 
 @end
 

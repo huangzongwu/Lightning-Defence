@@ -19,6 +19,7 @@
 	// Loops
 	NSTimer *gameLoop;
 	NSTimer *createDropLoop;
+	NSTimer *shootUmbrellas;
 	float dropsPerMinute;
 	float timeElapsed;
 	
@@ -26,6 +27,7 @@
 	NSArray *turretSpaces;
 	NSMutableSet *drops;
 	NSMutableSet *umbrellas;
+	NSMutableSet *umbrellaShooters;
 	
 	Person *player;
 	GameMenu *gameMenu;

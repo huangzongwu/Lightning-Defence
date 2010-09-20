@@ -12,6 +12,7 @@
 #import "TurretSpace.h"
 #import "GameMenu.h"
 #import "Umbrella.h"
+#import "UmbrellaShooter.h"
 
 #define gameLoop_interval 0.01666
 //#define createDrop_interval 0.01
@@ -32,6 +33,10 @@
 	umbrellas = [NSMutableSet set];
 	[umbrellas retain];
 	
+	// Array of Umbrella Shooters
+	umbrellaShooters = [NSMutableArray array];
+	[umbrellaShooters retain];
+	
 	//  The player, there is only one of these
 	player = [[Person alloc] initPerson];
 	[self.view addSubview:player];
@@ -46,6 +51,7 @@
 	//  Game loops
 	gameLoop = [NSTimer scheduledTimerWithTimeInterval:gameLoop_interval target:self selector:@selector(runLoop) userInfo:nil repeats:TRUE];
 	createDropLoop = [NSTimer scheduledTimerWithTimeInterval:createDrop_interval target:self selector:@selector(createDrop) userInfo:nil repeats:TRUE];
+	shootUmbrellas = [NSTimer scheduledTimerWithTimeInterval:2.5 target:self selector:@selector(shootUmbrellas) userInfo:nil repeats:TRUE];
 	
 	//  Create turrets
 	TurretSpace *turretLeftOne = [[TurretSpace alloc] initWithFrame:CGRectMake(0.0, 50, 40, 60)];
@@ -91,10 +97,17 @@
 	}
 	
 	
-	Umbrella *someUmbrella = [[Umbrella alloc] initFromTurret:[turretSpaces objectAtIndex:3]];
-	[umbrellas addObject:someUmbrella];
-	[self.view addSubview:someUmbrella];
+
 	
+}
+
+- (void)shootUmbrellas {
+	for (UmbrellaShooter *umbrellaShooter in umbrellaShooters)
+	{
+		Umbrella *someUmbrella = [[Umbrella alloc] initFromTurret:umbrellaShooter];
+		[umbrellas addObject:someUmbrella];
+		[self.view addSubview:someUmbrella];
+	}
 }
 
 - (void)runLoop {
@@ -112,11 +125,10 @@
 	
 	NSSet *tempSet = [NSSet setWithSet:drops];
 	
-	// Turret tracking
-	for (TurretSpace *turretSpace in turretSpaces)
+	// Umbrella Shooters
+	for (UmbrellaShooter *umbrellaShooter in umbrellaShooters)
 	{
-		//[turretSpace followDrop:[turretSpace trackNearestDrop:[NSMutableSet setWithSet:drops]]];
-		[turretSpace passiveRotate:gameLoop_interval];
+		[umbrellaShooter passiveRotate:gameLoop_interval];
 	}
 	
 	// Drops physics
@@ -150,6 +162,19 @@
 }
 
 #pragma mark GameMenu
+
+- (void)turretPurchased:(id)turret Type:(NSString *)nameOfType {
+	NSLog(@"shit purhcased");
+	NSLog(@"I am of type class: %@",nameOfType);
+	if ([nameOfType isEqualToString:@"Umbrella Dispenser"]) {
+		TurretSpace *someTurretSpace = (TurretSpace *)turret;
+		UmbrellaShooter *someUmbrellaShooter = [[UmbrellaShooter alloc] initWithFrame:CGRectMake(0.0, 0.0, 50, 50)];
+		[someTurretSpace addSubview:someUmbrellaShooter];
+		[umbrellaShooters addObject:someUmbrellaShooter];
+		NSLog(@"added to array");
+
+	}
+}
 
 - (void)showGameMenu:(id)turretSpace{
 	[gameMenu showMenu:(TurretSpace *)turretSpace];

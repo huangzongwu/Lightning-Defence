@@ -91,6 +91,8 @@
 
 - (void)purchaseTurret {
 	currentTurret.turret = selectedMenuItem.turretType;
+	[delegate turretPurchased:currentTurret Type:selectedMenuItem.name];
+	
 }
 
 - (void)dismissMenu {

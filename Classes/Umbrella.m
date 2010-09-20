@@ -28,7 +28,7 @@
 	angle = turret.rotation;
 	open = FALSE;
 	
-	[self initWithFrame:turret.frame];
+	[self initWithFrame:[turret superview].frame];
 	
 	self.transform = CGAffineTransformMakeRotation(angle);
 
@@ -45,10 +45,6 @@
 		xMovement = (interval * speed) * sin(someAngle);
 		yMovement = (interval * speed) * cos(someAngle);
 		CGPoint movement = CGPointMake(xMovement, yMovement);
-
-		//CGAffineTransform originalTransform = self.transform;
-		//CGAffineTransform movement = CGAffineTransformMakeTranslation(xMovement, -yMovement);
-		//self.transform = CGAffineTransformConcat(movement, originalTransform);
 		
 		CGPoint newCenter = CGPointMake(self.center.x+movement.x, self.center.y-movement.y);
 		self.center = newCenter;

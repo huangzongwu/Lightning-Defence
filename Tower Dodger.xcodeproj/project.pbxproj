@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* Tower_DodgerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Tower_DodgerViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* Tower_DodgerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Tower_DodgerViewController.m */; };
+		8908889B1247EEFD00B0C0CE /* UmbrellaShooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8908889A1247EEFD00B0C0CE /* UmbrellaShooter.m */; };
 		8915B7BA124325A000DF3B86 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8915B7B9124325A000DF3B86 /* Person.m */; };
 		8915B7BE12432D6900DF3B86 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 8915B7BD12432D6900DF3B86 /* player.png */; };
 		899759261243F90600DB085D /* TurretSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 899759251243F90600DB085D /* TurretSpace.m */; };
@@ -43,6 +44,8 @@
 		28D7ACF70DDB3853001CB0EB /* Tower_DodgerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tower_DodgerViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Tower_Dodger_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tower_Dodger_Prefix.pch; sourceTree = "<group>"; };
+		890888991247EEFD00B0C0CE /* UmbrellaShooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UmbrellaShooter.h; sourceTree = "<group>"; };
+		8908889A1247EEFD00B0C0CE /* UmbrellaShooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UmbrellaShooter.m; sourceTree = "<group>"; };
 		8915B7B8124325A000DF3B86 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		8915B7B9124325A000DF3B86 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		8915B7BD12432D6900DF3B86 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
@@ -176,6 +179,8 @@
 		89EC33E3124534620016FD09 /* Turrets */ = {
 			isa = PBXGroup;
 			children = (
+				890888991247EEFD00B0C0CE /* UmbrellaShooter.h */,
+				8908889A1247EEFD00B0C0CE /* UmbrellaShooter.m */,
 				89EC341C12454D410016FD09 /* Turret.h */,
 				89EC341D12454D410016FD09 /* Turret.m */,
 				899759241243F90600DB085D /* TurretSpace.h */,
@@ -261,6 +266,7 @@
 				89EC3203124412130016FD09 /* GameMenuItem.m in Sources */,
 				89EC341E12454D410016FD09 /* Turret.m in Sources */,
 				89A6FB231246B7BC006ECA18 /* Umbrella.m in Sources */,
+				8908889B1247EEFD00B0C0CE /* UmbrellaShooter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

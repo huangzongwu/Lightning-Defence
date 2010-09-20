@@ -1,31 +1,31 @@
 TTower Dodger
 v7
 r0
-t306620673.421078
+t306699384.903003
 cCheck dependencies
-cProcessInfoPlistFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Info.plist" Tower_Dodger-Info.plist
-cCompileXIB "/Users/davvilla/Documents/Workspace/Tower Dodger/MainWindow.xib"
-cCompileXIB "/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib"
+cProcessInfoPlistFile "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Info.plist" Tower_Dodger-Info.plist
+cCompileXIB /Users/davvilla/Documents/Workspace/LightningDefence/MainWindow.xib
+cCompileXIB /Users/davvilla/Documents/Workspace/LightningDefence/Tower_DodgerViewController.xib
 cCpResource "build/Debug-iphonesimulator/Tower Dodger.app/drop.png" drop.png
 cCpResource "build/Debug-iphonesimulator/Tower Dodger.app/player.png" player.png
 cCpResource "build/Debug-iphonesimulator/Tower Dodger.app/box.png" box.png
 cCpResource "build/Debug-iphonesimulator/Tower Dodger.app/t_umbrella.png" t_umbrella.png
 cCpResource "build/Debug-iphonesimulator/Tower Dodger.app/t_lightningRod.png" t_lightningRod.png
 cCpResource "build/Debug-iphonesimulator/Tower Dodger.app/barrel.png" barrel.png
-cProcessPCH /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch.gch Tower_Dodger_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/main.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerAppDelegate.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerViewController.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Drop.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Person.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/TurretSpace.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenu.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenu.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenuItem.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenuItem.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret_UmbrellaDispenser.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret_UmbrellaDispenser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger" normal i386
-cGenerateDSYMFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app.dSYM" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger"
-cTouch "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app"
+cProcessPCH /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch.gch Tower_Dodger_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/main.o" /Users/davvilla/Documents/Workspace/LightningDefence/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerAppDelegate.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerViewController.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Drop.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/../Drop.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Person.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Person.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/TurretSpace.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/TurretSpace.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenu.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenu.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenuItem.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenuItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Umbrella.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Umbrella.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger" normal i386
+cGenerateDSYMFile "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app.dSYM" "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger"
+cTouch "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app"
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
 c000000004BD236930000000000000110
@@ -116,6 +116,306 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1
 c000000004C6242840000000001E228C0
 t1281507972
 s31598784
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/../Drop.m
+c000000004C969DB4000000000000056E
+t1284939188
+s1390
+i"Drop.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenu.h
+c000000004C9560770000000000000313
+t1284857975
+s787
+i<UIKit/UIKit.h>
+i"GameMenuItem.h"
+i"TurretSpace.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenu.m
+c000000004C9663480000000000000E8E
+t1284924232
+s3726
+i"GameMenu.h"
+i"GameMenuItem.h"
+i"TurretSpace.h"
+i"Turret.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenuItem.h
+c000000004C96634800000000000002FC
+t1284924232
+s764
+i<UIKit/UIKit.h>
+i"Turret.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenuItem.m
+c000000004C96634600000000000003F1
+t1284924230
+s1009
+i"GameMenuItem.h"
+i"Turret.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Person.h
+c000000004C92FA750000000000000162
+t1284700789
+s354
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Person.m
+c000000004C92FD3C0000000000000368
+t1284701500
+s872
+i"Person.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerAppDelegate.h
+c000000004C92F8720000000000000200
+t1284700274
+s512
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerAppDelegate.m
+c000000004C92F8AA0000000000000B78
+t1284700330
+s2936
+i"Tower_DodgerAppDelegate.h"
+i"Tower_DodgerViewController.h"
+i"Drop.h"
+i"Person.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerViewController.h
+c000000004C96BBFC00000000000002F7
+t1284946940
+s759
+i<UIKit/UIKit.h>
+i"Person.h"
+i"TurretSpace.h"
+i"GameMenu.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerViewController.m
+c000000004C97A31C0000000000001467
+t1285006108
+s5223
+i"Tower_DodgerViewController.h"
+i"Drop.h"
+i"Person.h"
+i"TurretSpace.h"
+i"GameMenu.h"
+i"Umbrella.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret.h
+c000000004C967FC100000000000002C7
+t1284931521
+s711
+i<UIKit/UIKit.h>
+i"Drop.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret.m
+c000000004C967FDB0000000000000448
+t1284931547
+s1096
+i"Turret.h"
+i"Drop.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/TurretSpace.h
+c000000004C97A435000000000000031B
+t1285006389
+s795
+i<UIKit/UIKit.h>
+i"Turret.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/TurretSpace.m
+c000000004C97A4F80000000000000AD6
+t1285006584
+s2774
+i"TurretSpace.h"
+i"Turret.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret_UmbrellaDispenser.h
+c000000004C967D19000000000000011B
+t1284930841
+s283
+i<UIKit/UIKit.h>
+i"Turret.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret_UmbrellaDispenser.m
+c000000004C967F640000000000000162
+t1284931428
+s354
+i"Turret_UmbrellaDispenser.h"
+i"TurretSpace.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Umbrella.h
+c000000004C96BDA60000000000000196
+t1284947366
+s406
+i<UIKit/UIKit.h>
+i"TurretSpace.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Umbrella.m
+c000000004C96BD9C00000000000004CD
+t1284947356
+s1229
+i"Umbrella.h"
+i"TurretSpace.h"
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Drop.h
+c000000004C93059000000000000001C8
+t1284703632
+s456
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/MainWindow.xib
+c000000004C918BEF0000000000004E65
+t1284606959
+s20069
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Tower_DodgerViewController.xib
+c000000004C918BEF0000000000001A59
+t1284606959
+s6745
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/Tower_Dodger_Prefix.pch
+c000000004C918BEF00000000000000C1
+t1284606959
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/barrel.png
+c000000004C96869B000000000000BB3D
+t1284933275
+s47933
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/box.png
+c000000004C93C5D1000000000000C2C5
+t1284752849
+s49861
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app
+t1285006584
+s442
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app.dSYM
+t1285006584
+s102
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Info.plist
+t1284862399
+s611
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/MainWindow.nib
+t1284862402
+s1691
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/PkgInfo
+t1284862399
+s8
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger
+t1285006584
+s65364
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower_DodgerViewController.nib
+t1284862402
+s1269
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/barrel.png
+t1284933283
+s47933
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/box.png
+t1284752876
+s49861
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/drop.png
+t1284612286
+s51774
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/player.png
+t1284699626
+s50586
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/t_lightningRod.png
+t1284849822
+s47880
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/t_umbrella.png
+t1284759820
+s49953
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Drop.o
+t1284939195
+s41384
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenu.o
+t1285006436
+s52384
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenuItem.o
+t1284931531
+s43200
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Person.o
+t1284929410
+s38960
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower Dodger.LinkFileList
+c000000004C96807B00000000000005F8
+t1284931707
+s1528
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerAppDelegate.o
+t1285006436
+s50196
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerViewController.o
+t1285006436
+s59088
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret.o
+t1284931548
+s14024
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/TurretSpace.o
+t1285006584
+s48552
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret_UmbrellaDispenser.o
+t1284931416
+s34452
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Umbrella.o
+t1285006436
+s39012
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/main.o
+t1284929410
+s6332
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/drop.png
+c000000004C9193DA000000000000CA3E
+t1284608986
+s51774
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/main.m
+c000000004C918BEF000000000000016F
+t1284606959
+s367
+i<UIKit/UIKit.h>
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/player.png
+c000000004C92F5D1000000000000C59A
+t1284699601
+s50586
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/t_lightningRod.png
+c000000004C953FE7000000000000BB08
+t1284849639
+s47880
+
+N/Users/davvilla/Documents/Workspace/LightningDefence/t_umbrella.png
+c000000004C93E101000000000000C321
+t1284759809
+s49953
 
 N/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.h
 c000000004C93059000000000000001C8
@@ -426,6 +726,10 @@ c000000004C93E101000000000000C321
 t1284759809
 s49953
 
+N/var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch.gch
+t1284929410
+s15211536
+
 N/var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-cpxohyzmkxrztpgfyuxgzmbtlvne/Tower_Dodger_Prefix.pch.gch
 t1284608283
 s15232016
@@ -449,7 +753,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies306620673#306620673#0(0"0(0#1#0"8639689472#0"0#
+lSLF07#2@18"Check dependencies306699384#306699384#0(0"0(0#1#0"8631549248#0"0#
 
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Drop.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../Drop.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s306555205.252194
@@ -467,6 +771,19 @@ lSLF07#2@74"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/../
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Drop.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Drop.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Drop.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/../Drop.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306631995.566710
+e306631995.729885
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Drop.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/../Drop.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/../Drop.m306631995#306631995#0(0"0(0#0#70"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/../Drop.m8613582560#2193"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/../Drop.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Drop.o"0#
+
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenu.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenu.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s306618558.954572
 e306618559.082111
@@ -479,6 +796,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenu.m306618558#306618559#0(0"0(0#0#67"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenu.m8618174592#2162"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenu.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenu.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenu.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenu.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306699236.251881
+e306699236.414509
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenu.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenu.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenu.m306699236#306699236#0(0"0(0#0#71"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenu.m8618160992#2198"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenu.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenu.o"0#
 
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenuItem.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenuItem.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s306618036.995194
@@ -493,6 +823,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenuItem.m306618036#306618037#0(0"0(0#0#71"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenuItem.m8618406848#2170"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/GameMenuItem.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenuItem.o"0#
 
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenuItem.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenuItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306624331.551294
+e306624331.635884
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenuItem.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenuItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenuItem.m306624331#306624331#0(0"0(0#0#75"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenuItem.m8604392928#2206"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/GameMenuItem.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/GameMenuItem.o"0#
+
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Person.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s306555205.508744
 e306555205.618958
@@ -505,6 +848,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m306555205#306555205#0(0"0(0#0#65"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m8597970336#2158"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Person.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Person.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Person.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Person.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306622210.750181
+e306622210.843798
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Person.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Person.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Person.m306622210#306622210#0(0"0(0#0#69"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Person.m8606019008#2194"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Person.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Person.o"0#
 
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerAppDelegate.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s306618558.951177
@@ -519,6 +875,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m306618558#306618559#0(0"0(0#0#82"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m8637336000#2192"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerAppDelegate.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerAppDelegate.o"0#
 
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerAppDelegate.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306699236.248419
+e306699236.373359
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerAppDelegate.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerAppDelegate.m306699236#306699236#0(0"0(0#0#86"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerAppDelegate.m8625796480#2228"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerAppDelegate.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerAppDelegate.o"0#
+
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerViewController.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s306619501.047477
 e306619501.126961
@@ -531,6 +900,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@93"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m306619501#306619501#0(0"0(0#0#85"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m8637399680#2198"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Tower_DodgerViewController.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerViewController.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerViewController.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306699236.249648
+e306699236.419160
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerViewController.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerViewController.m306699236#306699236#0(0"0(0#0#89"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerViewController.m8621245696#2234"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Tower_DodgerViewController.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower_DodgerViewController.o"0#
 
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s306618037.029611
@@ -545,6 +927,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret.m306618037#306618037#0(0"0(0#0#65"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret.m8645578016#2158"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret.o"0#
 
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306624348.083609
+e306624348.140912
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret.m306624348#306624348#0(0"0(0#0#69"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret.m8613398528#2194"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret.o"0#
+
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/TurretSpace.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s306620003.198578
 e306620003.273951
@@ -558,6 +953,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m306620003#306620003#0(0"0(0#0#70"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m8631372416#2168"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/TurretSpace.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/TurretSpace.o"0#
 
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/TurretSpace.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/TurretSpace.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306699384.784322
+e306699384.853337
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/TurretSpace.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/TurretSpace.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/TurretSpace.m306699384#306699384#0(0"0(0#0#74"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/TurretSpace.m8621265152#2204"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/TurretSpace.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/TurretSpace.o"0#
+
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret_UmbrellaDispenser.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret_UmbrellaDispenser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s306618037.006573
 e306618037.092652
@@ -570,6 +978,32 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret_UmbrellaDispenser.m306618037#306618037#0(0"0(0#0#83"/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret_UmbrellaDispenser.m8640364256#2194"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/Turret_UmbrellaDispenser.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret_UmbrellaDispenser.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret_UmbrellaDispenser.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret_UmbrellaDispenser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306624216.690064
+e306624216.748778
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret_UmbrellaDispenser.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret_UmbrellaDispenser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret_UmbrellaDispenser.m306624216#306624216#0(0"0(0#0#87"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret_UmbrellaDispenser.m8616879040#2230"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Turret_UmbrellaDispenser.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Turret_UmbrellaDispenser.o"0#
+
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Umbrella.o" /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Umbrella.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306699236.373794
+e306699236.452028
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Umbrella.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Umbrella.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Umbrella.m306699236#306699236#0(0"0(0#0#71"/Users/davvilla/Documents/Workspace/LightningDefence/Classes/Umbrella.m8630702816#2198"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/Classes/Umbrella.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Umbrella.o"0#
 
 CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/dasd.o" "/Users/davvilla/Documents/Workspace/Tower Dodger/Classes/dasd.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -587,6 +1021,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/davvilla/Documents/Workspace/Tower Dodger/main.m306555205#306555205#0(0"0(0#0#55"/Users/davvilla/Documents/Workspace/Tower Dodger/main.m8610996640#2146"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/include" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-ctnkowmzstkuktbxsgrdxdnyeyye/Tower_Dodger_Prefix.pch -c "/Users/davvilla/Documents/Workspace/Tower Dodger/main.m" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/main.o"0#
 
+CCompileC "build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/main.o" /Users/davvilla/Documents/Workspace/LightningDefence/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s306622210.689595
+e306622210.750040
+r1
+xCompileC
+xbuild/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/main.o
+x/Users/davvilla/Documents/Workspace/LightningDefence/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/davvilla/Documents/Workspace/LightningDefence/main.m306622210#306622210#0(0"0(0#0#59"/Users/davvilla/Documents/Workspace/LightningDefence/main.m8606979648#2182"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -include /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch -c /Users/davvilla/Documents/Workspace/LightningDefence/main.m -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/main.o"0#
+
 CCompileXIB "/Users/davvilla/Documents/Workspace/Tower Dodger/MainWindow.xib"
 s306555199.978365
 e306555202.399560
@@ -603,14 +1050,20 @@ xCompileXIB
 x/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib
 lSLF07#2@41"CompileXIB Tower_DodgerViewController.xib306555199#306555202#0(0"0(0#0#79"/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib8611174368#643"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower_DodgerViewController.nib" "/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_DodgerViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
+CCompileXIB /Users/davvilla/Documents/Workspace/LightningDefence/MainWindow.xib
+r0
+
+CCompileXIB /Users/davvilla/Documents/Workspace/LightningDefence/Tower_DodgerViewController.xib
+r0
+
 CCpResource "build/Debug-iphonesimulator/Tower Dodger.app/barrel.png" barrel.png
-s306620064.088167
-e306620064.093188
+s306626083.455968
+e306626083.461686
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/Tower Dodger.app/barrel.png
 xbarrel.png
-lSLF07#2@15"Copy barrel.png306620064#306620064#0(0"0(0#0#59"/Users/davvilla/Documents/Workspace/Tower Dodger/barrel.png8640701888#495"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/davvilla/Documents/Workspace/Tower Dodger/barrel.png" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app"0#
+lSLF07#2@15"Copy barrel.png306626083#306626083#0(0"0(0#0#63"/Users/davvilla/Documents/Workspace/LightningDefence/barrel.png8612441536#503"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/davvilla/Documents/Workspace/LightningDefence/barrel.png "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app"0#
 
 CCpResource "build/Debug-iphonesimulator/Tower Dodger.app/box.png" box.png
 s306445676.736931
@@ -657,6 +1110,15 @@ xbuild/Debug-iphonesimulator/Tower Dodger.app/t_umbrella.png
 xt_umbrella.png
 lSLF07#2@19"Copy t_umbrella.png306452620#306452620#0(0"0(0#0#63"/Users/davvilla/Documents/Workspace/Tower Dodger/t_umbrella.png8626717408#499"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/davvilla/Documents/Workspace/Tower Dodger/t_umbrella.png" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app"0#
 
+CGenerateDSYMFile "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app.dSYM" "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger"
+s306699384.878520
+e306699384.900768
+r1
+xGenerateDSYMFile
+x/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app.dSYM
+x/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger
+lSLF07#2@128"GenerateDSYMFile "build/Debug-iphonesimulator/Tower Dodger.app.dSYM" "build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger"306699384#306699384#0(0"0(0#0#110"/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger8618138176#444"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger" -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app.dSYM"0#
+
 CGenerateDSYMFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app.dSYM" "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger"
 s306620003.298814
 e306620003.321085
@@ -665,6 +1127,16 @@ xGenerateDSYMFile
 x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app.dSYM
 x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger
 lSLF07#2@128"GenerateDSYMFile "build/Debug-iphonesimulator/Tower Dodger.app.dSYM" "build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger"306620003#306620003#0(0"0(0#0#106"/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger8645692704#434"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger" -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app.dSYM"0#
+
+CLd "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger" normal i386
+s306699384.853415
+e306699384.878417
+r1
+xLd
+x/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger
+xnormal
+xi386
+lSLF07#2@115"Link /Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger306699384#306699384#0(0"0(0#0#0"8618768192#999"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -filelist "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower Dodger.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger"0#
 
 CLd "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger" normal i386
 s306620003.274027
@@ -676,6 +1148,9 @@ xnormal
 xi386
 lSLF07#2@111"Link /Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger306620003#306620003#0(0"0(0#0#0"8646730336#985"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" "-F/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator" -filelist "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Objects-normal/i386/Tower Dodger.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Tower Dodger"0#
 
+CProcessInfoPlistFile "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app/Info.plist" Tower_Dodger-Info.plist
+r0
+
 CProcessInfoPlistFile "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Info.plist" Tower_Dodger-Info.plist
 s306555199.923443
 e306555199.978234
@@ -684,6 +1159,19 @@ xProcessInfoPlistFile
 x/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Info.plist
 xTower_Dodger-Info.plist
 lSLF07#2@31"Process Tower_Dodger-Info.plist306555199#306555199#0(0"0(0#0#72"/Users/davvilla/Documents/Workspace/Tower Dodger/Tower_Dodger-Info.plist8027789932823540736#530"    cd "/Users/davvilla/Documents/Workspace/Tower Dodger"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Tower_Dodger-Info.plist -genpkginfo "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app/Info.plist"0#
+
+CProcessPCH /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch.gch Tower_Dodger_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s306622209.681587
+e306622210.689455
+r1
+xProcessPCH
+x/var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch.gch
+xTower_Dodger_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile Tower_Dodger_Prefix.pch306622209#306622210#0(0"0(0#0#76"/Users/davvilla/Documents/Workspace/LightningDefence/Tower_Dodger_Prefix.pch8602840864#2053"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-generated-files.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-own-target-headers.hmap" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-all-target-headers.hmap" -iquote "/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/Tower Dodger-project-headers.hmap" -F/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator -I/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/include "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources/i386" "-I/Users/davvilla/Documents/Workspace/LightningDefence/build/Tower Dodger.build/Debug-iphonesimulator/Tower Dodger.build/DerivedSources" -c /Users/davvilla/Documents/Workspace/LightningDefence/Tower_Dodger_Prefix.pch -o /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-brwkpccirzxvpafcdgtukpjgbuix/Tower_Dodger_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-cpxohyzmkxrztpgfyuxgzmbtlvne/Tower_Dodger_Prefix.pch.gch Tower_Dodger_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s306301082.046663
@@ -726,6 +1214,14 @@ lSLF07#2@34"Precompile Tower_Dodger_Prefix.pch306451870#306451871#0(0"0(0#0#72"/
 
 CProcessPCH /var/folders/WU/WUCCr835E08g5IAogCNMRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tower_Dodger_Prefix-heqmtwbyjytrqtamxyjejoetyhsn/Tower_Dodger_Prefix.pch.gch Tower_Dodger_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
+
+CTouch "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app"
+s306699384.900847
+e306699384.902963
+r1
+xTouch
+x/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app
+lSLF07#2@103"Touch /Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app306699384#306699384#0(0"0(0#0#0"8617814784#313"    cd /Users/davvilla/Documents/Workspace/LightningDefence    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/davvilla/Documents/Workspace/LightningDefence/build/Debug-iphonesimulator/Tower Dodger.app"0#
 
 CTouch "/Users/davvilla/Documents/Workspace/Tower Dodger/build/Debug-iphonesimulator/Tower Dodger.app"
 s306620064.094895

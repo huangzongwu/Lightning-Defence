@@ -20,6 +20,10 @@
 	
 	Turret *turret;
 	
+	float rotation;
+	int counterClockWise;
+	
+	
 	id <TurretSpaceDelegate> delegate;
 	UIImageView *backgroundImage;
 }
@@ -27,9 +31,11 @@
 // Turret tracking / shooting
 - (Drop *)trackNearestDrop:(NSMutableSet *)drops;
 - (void)followDrop:(Drop *)drop;
+- (void)passiveRotate:(float)interval;
 
 + (double)distanceBetweenA:(CGPoint)a andB:(CGPoint)b;
 
+@property float rotation;
 @property (nonatomic, retain) Turret *turret;
 @property (nonatomic, retain) id <TurretSpaceDelegate> delegate;
 @end

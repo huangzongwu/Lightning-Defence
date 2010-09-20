@@ -25,6 +25,8 @@
 	// Game Items
 	NSArray *turretSpaces;
 	NSMutableSet *drops;
+	NSMutableSet *umbrellas;
+	
 	Person *player;
 	GameMenu *gameMenu;
 	

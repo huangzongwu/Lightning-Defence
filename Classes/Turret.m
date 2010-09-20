@@ -7,7 +7,6 @@
 //
 
 #import "Turret.h"
-#import "Turret_UmbrellaDispenser.h"
 #import "Drop.h"
 
 
@@ -15,8 +14,6 @@
 @synthesize name;
 @synthesize description;
 @synthesize thumbnail;
-@synthesize position;
-@synthesize rotation;
 @synthesize turretImage;
 
 #pragma mark Turret Class Methods
@@ -25,7 +22,7 @@
 }
 
 + (id)umbrellaDispenser {
-	return [[Turret_UmbrellaDispenser alloc] initWithName:@"Umbrella Dispenser" description:@"Shoots umbrellas that help stop raindrops" thumbnail:@"t_umbrella.png"];
+	return [[Turret alloc] initWithName:@"Umbrella Dispenser" description:@"Shoots umbrellas that help stop raindrops" thumbnail:@"t_umbrella.png"];
 }
 
 + (id)lightningRod {

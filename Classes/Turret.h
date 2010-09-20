@@ -16,8 +16,6 @@
 	NSString *thumbnail;
 	NSString *turretImage;
 	
-	CGPoint position;
-	float rotation;
 }
 
 
@@ -26,8 +24,6 @@
 @property (nonatomic, retain) NSString *thumbnail;
 @property (nonatomic, retain) NSString *turretImage;
 
-@property CGPoint position;
-@property float rotation;
 
 
 // Turret Types

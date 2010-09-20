@@ -13,10 +13,14 @@
 @implementation TurretSpace
 @synthesize delegate;
 @synthesize turret;
+@synthesize rotation;
 
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
+		
+		rotation = 0.7853982;
+		counterClockWise = 1;
 		
 		//UI
 		backgroundImage = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, frame.size.width, frame.size.height)];
@@ -31,6 +35,12 @@
     return self;
 }
 
+- (void)setTurret:(id)turretType {
+	turret = turretType;
+	
+	backgroundImage.image = [UIImage imageNamed:((Turret *)turretType).turretImage];
+}
+
 #pragma mark Math Helpers
 + (double)distanceBetweenA:(CGPoint)a andB:(CGPoint)b	{
 	return fabs(sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y)));
@@ -41,19 +51,13 @@
 	else { return atan((a.x - b.x) / (a.y - b.y)); }
 }
 
++ (double)degToRad:(double)deg {return deg * (M_PI / 180);}
++ (double)radToDeg:(double)rad {return rad * (180 / M_PI);}
 
-- (void)setTurret:(id)turretType {
-	turret = turretType;
-	
-	turret.position = self.frame.origin;
-	
-	//backgroundImage.image = [UIImage imageNamed:((Turret *)turretType).thumbnail];
-	backgroundImage.image = [UIImage imageNamed:((Turret *)turretType).turretImage];
-}
-
-#pragma mark Turret tracking / shooting
+#pragma mark Turret moving / shooting
 - (void)followDrop:(Drop *)drop {
-	backgroundImage.transform = CGAffineTransformMakeRotation(-[TurretSpace angleBetweenA:drop.frame.origin andB:self.frame.origin]);
+	rotation = -[TurretSpace angleBetweenA:drop.frame.origin andB:self.frame.origin];
+	backgroundImage.transform = CGAffineTransformMakeRotation(rotation);
 }
 
 - (Drop *)trackNearestDrop:(NSMutableSet *)drops {
@@ -66,17 +70,24 @@
 	
 	for (Drop *someDrop in drops)
 	{
-		if (someDrop.frame.origin.y < self.frame.origin.y) {
+		if (someDrop.frame.origin.y + 15 < self.frame.origin.y) {
 			double dist = [TurretSpace distanceBetweenA:someDrop.frame.origin andB:self.frame.origin];
 			if (dist < distance) {
 				tentativeDrop = someDrop;
 				distance = dist;
-				NSLog(@"HIII");
 			}
 		}
 	}
 	
 	return tentativeDrop;	 
+}
+
+- (void)passiveRotate:(float)interval {
+	NSLog(@"rotation: %f",[TurretSpace radToDeg:rotation]);
+	if (fabs([TurretSpace radToDeg:rotation]) >= 87) { counterClockWise = -1; }
+	else if (fabs([TurretSpace radToDeg:rotation] <= 3)) { counterClockWise = 1; }
+	rotation = rotation + [TurretSpace degToRad:90] * (interval / 2) * counterClockWise;
+	backgroundImage.transform = CGAffineTransformMakeRotation(rotation);
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {

@@ -11,9 +11,11 @@
 #import "Person.h"
 #import "TurretSpace.h"
 #import "GameMenu.h"
+#import "Umbrella.h"
 
 #define gameLoop_interval 0.01666
-#define createDrop_interval 0.01
+//#define createDrop_interval 0.01
+#define createDrop_interval 0.5
 #define seconds_per_minute 60
 
 @implementation Tower_DodgerViewController
@@ -25,6 +27,10 @@
 	//  Set of all water drops
 	drops = [NSMutableSet set];
 	[drops retain];
+	
+	// Set of all Umbrellas
+	umbrellas = [NSMutableSet set];
+	[umbrellas retain];
 	
 	//  The player, there is only one of these
 	player = [[Person alloc] initPerson];
@@ -69,7 +75,7 @@
 	
 	// Instance variable initialization
 	timeElapsed = 0.0;
-	dropsPerMinute = 60;	
+	dropsPerMinute = 120;	
 }
 
 #pragma mark Loops
@@ -83,21 +89,37 @@
 		[someDrop release];
 		timeElapsed = 0.0;
 	}
+	
+	/*
+	Umbrella *someUmbrella = [[Umbrella alloc] initFromTurret:[turretSpaces objectAtIndex:3]];
+	[umbrellas addObject:someUmbrella];
+	[self.view addSubview:someUmbrella];*/
+	
 }
 
 - (void)runLoop {
+	
+	// Move the player
 	if (playerMoving) {
 		[player move:gameLoop_interval];
 	}
 	
-	NSSet *tempSet = [NSSet setWithSet:drops];
-	
-	
-	for (TurretSpace *turretSpace in turretSpaces)
+	// Umbrella Behavior
+	for (Umbrella *someUmbrella in umbrellas)
 	{
-		[turretSpace followDrop:[turretSpace trackNearestDrop:[NSMutableSet setWithSet:drops]]];
+		[someUmbrella moveWithWind:0 interval:gameLoop_interval];
 	}
 	
+	NSSet *tempSet = [NSSet setWithSet:drops];
+	
+	// Turret tracking
+	for (TurretSpace *turretSpace in turretSpaces)
+	{
+		//[turretSpace followDrop:[turretSpace trackNearestDrop:[NSMutableSet setWithSet:drops]]];
+		[turretSpace passiveRotate:gameLoop_interval];
+	}
+	
+	// Drops physics
 	for (Drop *someDrop in [tempSet objectEnumerator])
 	{
 		[someDrop moveWithWind:20 interval:gameLoop_interval];

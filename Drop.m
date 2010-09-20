@@ -29,9 +29,9 @@
 	float yMovement = gravity * size * (interval * 8);
 	self.frame = CGRectMake(self.frame.origin.x + xMovement, self.frame.origin.y + yMovement, self.frame.size.width, self.frame.size.height);
 	
-	if (self.frame.origin.y + self.frame.size.height) { 
+	//if (self.frame.origin.y + self.frame.size.height) { 
 		canCollide = TRUE; 
-	}
+	//}
 }
 
 - (float)width {

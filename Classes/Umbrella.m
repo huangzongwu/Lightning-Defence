@@ -41,10 +41,17 @@
 	float xMovement;
 	float yMovement;
 	if (!open){
-		xMovement = (interval * speed) * sin(angle);
-		yMovement = (interval * speed) * cos(angle);
-		CGAffineTransform movement = CGAffineTransformMakeTranslation(xMovement, -yMovement);
-		self.transform = CGAffineTransformConcat(movement, self.transform);
+		double someAngle = fabs(angle);
+		xMovement = (interval * speed) * sin(someAngle);
+		yMovement = (interval * speed) * cos(someAngle);
+		CGPoint movement = CGPointMake(xMovement, yMovement);
+
+		//CGAffineTransform originalTransform = self.transform;
+		//CGAffineTransform movement = CGAffineTransformMakeTranslation(xMovement, -yMovement);
+		//self.transform = CGAffineTransformConcat(movement, originalTransform);
+		
+		CGPoint newCenter = CGPointMake(self.center.x+movement.x, self.center.y-movement.y);
+		self.center = newCenter;
 	}
 	else {
 		xMovement = (speed / wind) * (interval * 30);

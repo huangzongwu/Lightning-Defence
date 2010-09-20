@@ -90,10 +90,10 @@
 		timeElapsed = 0.0;
 	}
 	
-	/*
+	
 	Umbrella *someUmbrella = [[Umbrella alloc] initFromTurret:[turretSpaces objectAtIndex:3]];
 	[umbrellas addObject:someUmbrella];
-	[self.view addSubview:someUmbrella];*/
+	[self.view addSubview:someUmbrella];
 	
 }
 

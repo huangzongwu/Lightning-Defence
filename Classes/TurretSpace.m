@@ -83,7 +83,6 @@
 }
 
 - (void)passiveRotate:(float)interval {
-	NSLog(@"rotation: %f",[TurretSpace radToDeg:rotation]);
 	if (fabs([TurretSpace radToDeg:rotation]) >= 87) { counterClockWise = -1; }
 	else if (fabs([TurretSpace radToDeg:rotation] <= 3)) { counterClockWise = 1; }
 	rotation = rotation + [TurretSpace degToRad:90] * (interval / 2) * counterClockWise;

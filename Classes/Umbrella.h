@@ -15,8 +15,11 @@
 	float angle;
 	float speed;	
 	BOOL open;
+	BOOL inUse;
 }
 
+
+@property BOOL inUse;
 
 - (id)initFromTurret:(TurretSpace *)turret;
 - (void)moveWithWind:(float)wind interval:(float)interval;

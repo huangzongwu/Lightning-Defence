@@ -10,6 +10,7 @@
 #import "TurretSpace.h"
 
 @implementation Umbrella
+@synthesize inUse;
 
 #define gravity 9.81
 #define umbrellaSize 5.0
@@ -27,6 +28,7 @@
 	speed = 150.0;
 	angle = turret.rotation;
 	open = FALSE;
+	inUse = FALSE;
 	
 	[self initWithFrame:[turret superview].frame];
 	
@@ -37,7 +39,13 @@
 	return self;
 }
 
+- (BOOL)checkCollision:(CGRect)rect {
+	return CGRectIntersectsRect(rect, self.frame);
+}
+
 - (void)moveWithWind:(float)wind interval:(float)interval {
+	
+	if (inUse) {return;}
 	
 	if (distanceTillOpen <= 0.0 && !open) {
 		open = TRUE;

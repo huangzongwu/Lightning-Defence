@@ -120,6 +120,12 @@
 	// Umbrella Behavior
 	for (Umbrella *someUmbrella in umbrellas)
 	{
+		if ([someUmbrella checkCollision:player.frame])
+		{
+			someUmbrella.inUse = TRUE;
+			someUmbrella.frame = CGRectMake(10, -15, someUmbrella.frame.size.width, someUmbrella.frame.size.height);
+			[player addSubview:someUmbrella];
+		}
 		[someUmbrella moveWithWind:0 interval:gameLoop_interval];
 	}
 	
@@ -134,6 +140,14 @@
 	// Drops physics
 	for (Drop *someDrop in [tempSet objectEnumerator])
 	{
+		for (Umbrella *someUmbrella in umbrellas)
+		{
+			if([someDrop checkCollision:someUmbrella.frame])
+			{
+				[drops removeObject:someDrop];
+				[someDrop collided];
+			}
+		}
 		[someDrop moveWithWind:20 interval:gameLoop_interval];
 		if ([someDrop canCollide] && [someDrop checkCollision:CGRectMake(0.0, 420, self.view.frame.size.width, self.view.frame.size.height - 420)])
 		{
@@ -145,7 +159,6 @@
 			[drops removeObject:someDrop];
 			[someDrop collided];
 		}
-
 	}
 }
 
